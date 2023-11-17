@@ -29,16 +29,31 @@ function Projects() {
       thumbnail:'',
     },     
     {
+      id:5,
       name: 'Cards stack',
       url:'https://github.com/ARaviteja91/cards-stack',
       thumbnail:'',
     },     
     { 
-      id:5,
+      id:6,
       name: 'Photo grid',
       url:'https://github.com/ARaviteja91/photogrid',
       thumbnail:'',
     },     
+    
+    { 
+      id:7,
+      name: 'Business card generator',
+      url:'https://github.com/ARaviteja91/card-generator',
+      thumbnail:'',
+    },     
+    { 
+      id:8,
+      name: 'Text to Speech',
+      url:'https://github.com/ARaviteja91/texttospeech',
+      thumbnail:'',
+    },     
+    
   ]
    
 
@@ -59,6 +74,8 @@ function Projects() {
             
          ))}
       </div>
+
+    
     </div>
     </>
   )
