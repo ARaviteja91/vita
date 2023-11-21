@@ -130,14 +130,14 @@ width: calc(100% - 100px);
 margin-bottom: 1em;
 }
 
-.hero .social i{
+.hero .social img{
 margin: 0 0.5em 0 0 ;
 font-size: 18pt;
 color: var(--color);
 transition: .2s;
 }
 
-.hero .social i:hover{
+.hero .social img:hover{
 transform: translate(0,-10%) scale(1.2);
 }
 
@@ -292,7 +292,7 @@ animation: reveal 500ms ease-in-out ;
 margin: 1em 0;
 }
 
-.social i{ 
+.social img{ 
 font-size: 24pt;
 margin-right: 1em;
 text-decoration: none;
@@ -329,9 +329,9 @@ background-color: var(--bg);
 }
 
 
-.fa-linkedin{ animation: social-icons 1s ease-out 0ms; }
-.fa-codepen{ animation: social-icons 1s ease-out 300ms; }
-.fa-github{ animation: social-icons 1s ease-out 500ms; }
+.social .lkn{ animation: social-icons 1s ease-out 0ms; }
+.social .cdp{ animation: social-icons 1s ease-out 300ms; }
+.social .git{ animation: social-icons 1s ease-out 500ms; }
 
 
 @keyframes reveal {
